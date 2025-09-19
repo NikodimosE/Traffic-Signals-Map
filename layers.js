@@ -1,5 +1,5 @@
 console.log('✅ layers.js loaded');
-//comment
+//comment2
 // Object to hold each toggleable layer
 const overlayLayers = {};
 
@@ -41,4 +41,5 @@ overlayLayers['<img src="icons/Zebra.svg" width="16" style="vertical-align:middl
 
 // Add the layer control to the map
 L.control.layers(null, overlayLayers, { collapsed: false }).addTo(window.map);
+
 
