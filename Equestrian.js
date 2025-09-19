@@ -1,5 +1,5 @@
 console.log('✅ Signals.js loaded');
-
+//comment
 function addEquestrian(map) {
   const signals = [
     {
@@ -58,3 +58,4 @@ function addEquestrian(map) {
       .bindPopup(popupText);
   });
 }
+
